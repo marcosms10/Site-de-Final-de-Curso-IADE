@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--======================== REMIXICONS ======================== -->
+        <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css> 
+
+        <!--======================== SWIPER CSS ======================== -->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--========================  CSS ======================== -->
+
+        <link rel="stylesheet" href="livraria.css">
+        <link rel="stylesheet" href="header.css">
+            
+    <title>livraria</title>
+</head>
+<body>
+
+<!-- ================= HEADER =================  -->
+<header class="header shadow-header" id="header">
+    <nav class="nav container">
+        <a href="index.html" class="nav-logo">
+            <i class="ri-book-2-line"></i> BookSwap
+        </a>
+
+        <div class="nav-menu">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link active-link">
+                        <i class="ri-home-2-line"></i>
+                        <span>Início</span>
+                    </a>
+                </li>
+
+
+                <li class="nav-item">
+                    <a href="sobrenos.html" class="nav-link">
+                        <i class="ri-team-line"></i>
+                        <span>Quem somos</span>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="livraria.html" class="nav-link">
+                        <i class="ri-book-open-line"></i>
+                        <span>Livraria</span>
+                    </a>
+                </li>
+            </ul><!-- nav-list -->
+        </div><!-- nav-menu -->
+
+        <div class="nav-actions">
+            <!-- Search button -->
+            <i class="ri-search-line search-button" id="search-button"></i>
+
+            <!-- Shopping Cart button -->
+            <i class="ri-shopping-cart-line" id="cart-button"></i>
+
+            <!-- Theme button -->
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+        </div>
+    </nav><!-- nav-container -->
+</header>
+<!-- ================= HEADER =================  -->
+
+<!-- ================= SEARCH =================  -->
+<div class="search" id="search-content">
+    <form action="" class="search-form">
+        <i class="ri-search-line search-icon"></i>
+        <input type="search" placeholder="O que você esta buscando?" class="search-input">
+    </form><!-- search-form -->
+
+    <i class="ri-eye-close-line search-close" id="search-close"></i>
+</div>
+<!-- ================= SEARCH =================  -->
+
+
+<!-- ================= CONTENT =================  -->
+<div class="content">
+<!-- ================= TOPO =================  -->        
+        <div class="topo">
+            <form action="#" class="search-livraria">
+                <input type="text" class="searchInput" placeholder="Pesquisar...">
+
+                <div class="select-menu">
+                    <div class="select">
+                        <span>Seleciona a Categoria</span>
+                        <i class="ri-arrow-down-s-line"></i>
+                    </div>
+                    <div class="option-list">
+                        <div class="option">Tudo</div>
+                        <div class="option">Autor</div>
+                        <div class="option">Editora</div>
+                        <div class="option">Título</div>
+                    </div>
+                </div>
+                
+                <button class="btnbuscar">Buscar</button>
+            </form>
+        </div>
+<!-- ================= TOPO =================  -->
+
+<!-- ================= VIZUALIZADOS =================  -->
+        <div class="vizualizados">
+            <div class="titulo-vizu">
+                <h2>Os Mais Vizualizados da Semana</h2>
+            </div>
+
+            <div class="vizu-column swiper">
+                <div class="swiper-wrapper">
+                    <div class="vizu swiper-slide">
+                        <div class="destaque-vizu">
+                            <h3>Top 1</h3>
+                        </div>
+
+                        <div class="img-vizu">
+                            <img src="assets/Imagens/5.jpg" alt="">
+                        </div>
+
+                        <div class="info-vizu">
+                            <h3>O Tatuador de Aushcwitz</h3>
+                            <p>Autor: Heather Morris</p>
+                        </div>
+                    </div>
+
+                    <div class="vizu swiper-slide">
+                        <div class="destaque-vizu">
+                            <h3>Top 2</h3>
+                        </div>
+
+                        <div class="img-vizu">
+                            <img src="assets/Imagens/4.jpg" alt="">
+                        </div>
+
+                        <div class="info-vizu">
+                            <h3>O Cristão e a Política</h3>
+                            <p>Autor: Nikolas Ferreira</p>
+                        </div>
+                    </div>
+
+                    <div class="vizu swiper-slide">
+                        <div class="destaque-vizu">
+                            <h3>Top 3</h3>
+                        </div>
+
+                        <div class="img-vizu">
+                            <img src="assets/Imagens/7.jpg" alt="">
+                        </div>
+
+                        <div class="info-vizu">
+                            <h3>Tudo Foi como Tinha de Ser</h3>
+                            <p>Autor: Raul Minh'Alma</p>
+                        </div>
+                    </div>
+
+                    <div class="vizu swiper-slide">
+                        <div class="destaque-vizu">
+                            <h3>Top 4</h3>
+                        </div>
+
+                        <div class="img-vizu">
+                            <img src="assets/Imagens/15.jpg" alt="">
+                        </div>
+
+                        <div class="info-vizu">
+                            <h3>A atitude mental para o sucesso</h3>
+                            <p>Autor: Dra Carol S. Dweck</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-pagination"></div>
+
+            </div><!--vizu-column-->
+        </div>
+<!-- ================= VIZUALIZADOS =================  -->
+
+<!-- ================= BOOKS-COLUMN =================  -->
+        <div class="books-column" id="booknamesearch">
+
+            <div class="column">
+                <div class="image">
+                    <img src="assets/Imagens/1.jpg" alt="">
+                </div>
+
+                <div class="info">
+                    <h3>Uma Vida com Propósitos</h3>
+                    <p>Autor: Rick Warren</p>
+
+                    <h4>2 Livros disponives para Troca</h4>
+                    <button class="btnn">Quero Trocar</button>
+                </div><!--info-->
+            </div><!--column-->
+
+            <div class="column">
+                <div class="image">
+                    <img src="assets/Imagens/2.jpg" alt="">
+                </div>
+
+                <div class="info">
+                    <h3>The Laws of Human Nature</h3>
+                    <p>Autor: Robert Greene</p>
+
+
+                    <h4>2 Livros disponives para Troca</h4>
+                    <button class="btnn">Quero Trocar</button>
+                </div><!--info-->
+            </div><!--column-->
+
+            <div class="column">
+                <div class="image">
+                    <img src="assets/Imagens/3.jpg" alt="">
+                </div>
+
+                <div class="info">
+                    <h3>Pai Rico Pai Pobre</h3>
+                    <p>Autor: Robert T. Kiyosaki</p>
+
+                    <h4>2 Livros disponives para Troca</h4>
+                    <button class="btnn">Quero Trocar</button>
+                </div><!--info-->
+            </div><!--column-->
+            
+            <div class="column">
+                <div class="image">
+                    <img src="assets/Imagens/4.jpg" alt="">
+                </div>
+
+                <div class="info">
+                    <h3>O cristão e a Política</h3>
+                    <p>Autor: Nikolas Ferreira</p>
+
+                    <h4>2 Livros disponives para Troca</h4>
+                    <button class="btnn">Quero Trocar</button>
+                </div><!--info-->
+            </div><!--column-->
+
+            <div class="column">
+                <div class="image">
+                    <img src="assets/Imagens/5.jpg" alt="">
+                </div>
+
+                <div class="info">
+                    <h3>O Tatuador de Auschwitz</h3>
+                    <p>Autor: Heather Morris</p>
+
+                    <h4>2 Livros disponives para Troca</h4>
+                    <button class="btnn">Quero Trocar</button>
+                </div><!--info-->
+            </div><!--column-->
+
+            <div class="column">
+                <div class="image">
+                    <img src="assets/Imagens/6.jpg" alt="">
+                </div>
+
+                <div class="info">
+                    <h3>Chama de Ferro</h3>
+                    <p>Autor: Rebecca Yarros</p>
+
+                    <h4>2 Livros disponives para Troca</h4>
+                    <button class="btnn">Quero Trocar</button>
+                </div><!--info-->
+            </div><!--column-->
+
+            <div class="column">
+                <div class="image">
+                    <img src="assets/Imagens/7.jpg" alt="">
+                </div>
+
+                <div class="info">
+                    <h3>Tudo Foi Como Tinha de Ser</h3>
+                    <p>Autor: Raul Minh'Alma</p>
+
+                    <h4>2 Livros disponives para Troca</h4>
+                    <button class="btnn">Quero Trocar</button>
+                </div><!--info-->
+            </div><!--column-->
+
+            <div class="column">
+                <div class="image">
+                    <img src="assets/Imagens/8.jpg" alt="">
+                </div>
+
+                <div class="info">
+                    <h3>O escritório</h3>
+                    <p>Autor: Freida McFadden</p>
+
+                    <h4>2 Livros disponives para Troca</h4>
+                    <button class="btnn">Quero Trocar</button>
+                </div><!--info-->
+            </div><!--column-->
+
+            <div class="column">
+                <div class="image">
+                    <img src="assets/Imagens/9.jpg" alt="">
+                </div>
+
+                <div class="info">
+                    <h3>Muito Mais do que Proteína</h3>
+                    <p>Autor: António Pedro</p>
+
+                    <h4>2 Livros disponives para Troca</h4>
+                    <button class="btnn">Quero Trocar</button>
+                </div><!--info-->
+            </div><!--column-->
+
+            <div class="column">
+                <div class="image">
+                    <img src="assets/Imagens/10.jpg" alt="">
+                </div>
+
+                <div class="info">
+                    <h3>Crime e Castigo</h3>
+                    <p>Autor: Fiódor Dostoiévski</p>
+
+                    <h4>2 Livros disponives para Troca</h4>
+                    <button class="btnn">Quero Trocar</button>
+                </div><!--info-->
+            </div><!--column-->
+
+            <div class="column">
+                <div class="image">
+                    <img src="assets/Imagens/11.jpg" alt="">
+                </div>
+
+                <div class="info">
+                    <h3>Rainha Vermelha</h3>
+                    <p>Autor: Victoria Aveyard</p>
+
+                    <h4>2 Livros disponives para Troca</h4>
+                    <button class="btnn">Quero Trocar</button>
+                </div><!--info-->
+            </div><!--column-->
+
+            <div class="column">
+                <div class="image">
+                    <img src="assets/Imagens/12.jpg" alt="">
+                </div>
+
+                <div class="info">
+                    <h3>Durante a Queda Aprendi a Voar</h3>
+                    <p>Autor: Raul Minh'Alma</p>
+
+                    <h4>2 Livros disponives para Troca</h4>  
+                    <button class="btnn">Quero Trocar</button>
+                </div><!--info-->
+            </div><!--column-->
+        </div>
+<!-- ================= BOOKS-COLUMN =================  -->
+
+    </div><!--content-container-->
+</div><!--content-->
+<!-- ================= CONTENT =================  -->
+
+
+<!-- ================= SCROLL UP =================  -->
+<a href="" class="scrollup" id="scroll-up">
+    <i class="ri-arrow-up-line"></i>
+</a>
+<!-- ================= SCROL UP =================  -->
+
+
+
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <script src="livraria.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
